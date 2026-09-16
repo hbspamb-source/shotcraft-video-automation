@@ -39,6 +39,7 @@ Dự án này là một phiên bản mở rộng kết hợp (Hybrid Evolution) 
    - Cung cấp cảm hứng và kiến trúc pipeline tự động hóa: chuẩn hóa kịch bản JSON (`script.json` schema), quy trình chia đoạn lồng tiếng Vietnamese Voiceover TTS, và thuật toán lựa chọn hiệu ứng âm thanh thông minh (Smart Semantic SFX Selector) theo ngữ nghĩa kịch bản.
 
 Chúng tôi chân thành cảm ơn sự đóng góp quý báu của các tác giả cho cộng đồng mã nguồn mở!
+Đây hoàn toàn là dự án phục vụ cho mục đích cá nhân rất mong được sự đóng góp thêm !
 
 ---
 
