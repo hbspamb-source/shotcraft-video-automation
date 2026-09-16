@@ -1,0 +1,218 @@
+{
+  "version": "1.0",
+  "metadata": {
+    "title": "Mỹ xối tên lửa hủy diệt — Hormozgan báo động đỏ",
+    "topic": "Military / Geopolitics",
+    "channel": "News Short",
+    "source": "https://www.youtube.com/watch?v=oun4IdaG13I",
+    "style": "breaking-news-cinematic"
+  },
+  "audio": {
+    "voiceProvider": "hybrid-tts",
+    "voiceName": "vi-VN-NamMinhNeural",
+    "playbackRate": 1.15,
+    "bgmTrack": "audio/bgm/tonight-hiphop.mp3",
+    "bgmVolume": 0.16
+  },
+  "aspectRatio": "9:16",
+  "fps": 30,
+  "palette": {
+    "bg": "#050507",
+    "accent": "#dc2626",
+    "accentSecondary": "#ea580c",
+    "textPrimary": "#ffffff",
+    "textMuted": "#9ca3af",
+    "glowRed": "rgba(220,38,38,0.4)"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "role": "hook",
+      "component": "NewsHookBanner",
+      "durationSec": 9.5,
+      "voiceFile": "audio/voice/v01_hook.mp3",
+      "voiceStartSec": 0.8,
+      "voiceDurationSec": 7.7,
+      "voiceText": "Mỹ xối tên lửa điên cuồng — 2 tàu Iran bốc cháy. Hormozgan báo động đỏ toàn khu vực!",
+      "props": {
+        "badgeText": "🚨 BREAKING NEWS",
+        "headline": "MỸ PHÓNG TÊN LỬA\n2 TÀU IRAN BỐC CHÁY",
+        "subline": "VỊNH BA TƯ · EO BIỂN HORMOZGAN",
+        "tagAlert": "BÁO ĐỘNG ĐỎ TOÀN KHU VỰC"
+      },
+      "sfx": [
+        { "fromSec": 0.0, "src": "audio/sfx/riser/riser-cine.mp3", "volume": 0.5 },
+        { "fromSec": 0.5, "src": "audio/sfx/impact/impact-cine-big.mp3", "volume": 1.0 },
+        { "fromSec": 0.8, "src": "audio/sfx/transition/whoosh-big.mp3", "volume": 0.7 },
+        { "fromSec": 9.0, "src": "audio/sfx/transition/transition-snap.mp3", "volume": 0.8 }
+      ]
+    },
+    {
+      "id": "scene-02",
+      "role": "context",
+      "component": "HUDRadarScreen",
+      "durationSec": 11.0,
+      "voiceFile": "audio/voice/v02_context.mp3",
+      "voiceStartSec": 1.0,
+      "voiceDurationSec": 8.5,
+      "voiceText": "Vịnh Ba Tư — eo biển Hormozgan. Mỹ phóng tên lửa dẫn đường chính xác, nhắm thẳng vào 2 tàu đánh cá Iran đang hoạt động trong vùng biển của mình.",
+      "props": {
+        "scanTitle": "📡 XÁC NHẬN MỤC TIÊU QUÂN SỰ",
+        "hudLines": [
+          { "label": "📍 KHU VỰC", "value": "VỊNH BA TƯ · HORMOZGAN" },
+          { "label": "🎯 MỤC TIÊU", "value": "2 TÀU ĐÁNH CÁ IRAN" },
+          { "label": "🚀 HỎA LỰC", "value": "TÊN LỬA DẪN ĐƯỜNG MỸ" },
+          { "label": "⚡ TÌNH TRẠNG", "value": "PHÁ HỦY HOÀN TOÀN" }
+        ],
+        "accentColor": "#ef4444"
+      },
+      "sfx": [
+        { "fromSec": 0.0, "src": "audio/sfx/transition/sweep-scifi-fast.mp3", "volume": 0.5 },
+        { "fromSec": 0.5, "src": "audio/sfx/transition/transition-tech-slide.mp3", "volume": 0.6 },
+        { "fromSec": 2.2, "src": "audio/sfx/transition/transition-tech-slide.mp3", "volume": 0.6 },
+        { "fromSec": 4.5, "src": "audio/sfx/transition/transition-tech-slide.mp3", "volume": 0.6 },
+        { "fromSec": 10.2, "src": "audio/sfx/transition/sweep-fast.mp3", "volume": 0.8 }
+      ]
+    },
+    {
+      "id": "scene-03",
+      "role": "climax",
+      "component": "BreakingNewsDrop",
+      "durationSec": 13.0,
+      "voiceFile": "audio/voice/v03_climax.mp3",
+      "voiceStartSec": 1.2,
+      "voiceDurationSec": 9.96,
+      "voiceText": "Tên lửa hủy diệt hoàn toàn cả hai tàu. Hormozgan tuyên bố báo động đỏ — lần đầu tiên trong nhiều năm. Toàn bộ vùng vịnh Ba Tư rơi vào tình trạng căng như dây đàn.",
+      "props": {
+        "dropWord": "HORMOZGAN",
+        "dropSub": "BÁO ĐỘNG ĐỎ CẤP CAO",
+        "alertText": "🔴 LẦN ĐẦU TIÊN TRONG NHIỀU NĂM",
+        "closingLine": "TOÀN KHU VỰC CĂNG NHƯ DÂY ĐÀN"
+      },
+      "sfx": [
+        { "fromSec": 0.0, "src": "audio/sfx/impact/bass-hit-futuristic.mp3", "volume": 0.4 },
+        { "fromSec": 1.0, "src": "audio/sfx/impact/impact-epic-trailer.mp3", "volume": 1.0 },
+        { "fromSec": 1.1, "src": "audio/sfx/impact/stomp-apocalyptic.mp3", "volume": 0.85 },
+        { "fromSec": 3.8, "src": "audio/sfx/impact/impact-movie-epic.mp3", "volume": 0.7 },
+        { "fromSec": 12.3, "src": "audio/sfx/transition/air-whoosh-powerful.mp3", "volume": 0.8 }
+      ]
+    },
+    {
+      "id": "scene-04a",
+      "role": "analysis_us",
+      "component": "OneSideCard",
+      "durationSec": 9.5,
+      "voiceFile": "audio/voice/v04a_us.mp3",
+      "voiceStartSec": 0.8,
+      "voiceDurationSec": 7.27,
+      "voiceText": "Tại sao Mỹ ra tay? Hải quân Mỹ cáo buộc 2 tàu này vận chuyển vũ khí cho lực lượng Houthi ở Yemen.",
+      "props": {
+        "side": "us",
+        "flag": "🇺🇸",
+        "entityName": "LẦU NĂM GÓC (MỸ)",
+        "verdict": "CÁO BUỘC VẬN CHUYỂN VŨ KHÍ",
+        "verdictColor": "#2563eb",
+        "bulletPoints": [
+          "Tàu cá ngụy trang chuyển vũ khí",
+          "Mục tiêu tiếp tế cho phiến quân Houthi",
+          "Hành động tự vệ trên hải phận quốc tế"
+        ],
+        "sideLabel": "GÓC NHÌN HOA KỲ"
+      },
+      "sfx": [
+        { "fromSec": 0.0, "src": "audio/sfx/transition/transition-soft.mp3", "volume": 0.4 },
+        { "fromSec": 0.8, "src": "audio/sfx/text/pen-click-twice.mp3", "volume": 0.5 },
+        { "fromSec": 3.0, "src": "audio/sfx/text/pen-click-twice.mp3", "volume": 0.5 }
+      ]
+    },
+    {
+      "id": "scene-04b",
+      "role": "analysis_iran",
+      "component": "OneSideCard",
+      "durationSec": 11.0,
+      "voiceFile": "audio/voice/v04b_iran.mp3",
+      "voiceStartSec": 0.8,
+      "voiceDurationSec": 8.62,
+      "voiceText": "Iran phủ nhận hoàn toàn. Tehran tuyên bố đây là hành động vi phạm chủ quyền nghiêm trọng — và sẽ không bỏ qua.",
+      "props": {
+        "side": "iran",
+        "flag": "🇮🇷",
+        "entityName": "TEHRAN (IRAN)",
+        "verdict": "PHỦ NHẬN & ĐE DỌA ĐÁP TRẢ",
+        "verdictColor": "#16a34a",
+        "bulletPoints": [
+          "Tàu ngư dân hoạt động hợp pháp",
+          "Hành vi xâm phạm chủ quyền biển",
+          "Cảnh báo trả đũa đích đáng"
+        ],
+        "sideLabel": "GÓC NHÌN IRAN"
+      },
+      "sfx": [
+        { "fromSec": 0.0, "src": "audio/sfx/transition/transition-soft.mp3", "volume": 0.4 },
+        { "fromSec": 0.8, "src": "audio/sfx/text/pen-click-twice.mp3", "volume": 0.5 },
+        { "fromSec": 3.5, "src": "audio/sfx/text/pen-click-twice.mp3", "volume": 0.5 }
+      ]
+    },
+    {
+      "id": "scene-05",
+      "role": "stakes",
+      "component": "StatRevealPanel",
+      "durationSec": 15.0,
+      "voiceFile": "audio/voice/v05_stakes.mp3",
+      "voiceStartSec": 0.8,
+      "voiceDurationSec": 12.07,
+      "voiceText": "Hormozgan kiểm soát eo biển Hormuz — nơi 20 phần trăm lượng dầu thế giới đi qua mỗi ngày. Một cuộc đụng độ nhỏ cũng đủ châm ngòi khủng hoảng năng lượng toàn cầu.",
+      "props": {
+        "badgeTitle": "⚠️ NGUY CƠ BÙNG NỔ NĂNG LƯỢNG",
+        "stats": [
+          {
+            "value": 20,
+            "unit": "%",
+            "label": "LƯỢNG DẦU MỎ TOÀN CẦU",
+            "sublabel": "Đi qua yết hầu eo biển Hormuz mỗi ngày"
+          },
+          {
+            "value": 17,
+            "unit": "TRIỆU THÙNG/NGÀY",
+            "label": "TẮC NGHẼN VẬN TẢI BIỂN",
+            "sublabel": "Nếu chiến sự lan rộng → Khủng hoảng giá dầu"
+          }
+        ],
+        "warningLine": "🔥 GIÁ DẦU THẾ GIỚI CHẤP CHỚI TĂNG VỌT"
+      },
+      "sfx": [
+        { "fromSec": 0.0, "src": "audio/sfx/transition/transition-tech.mp3", "volume": 0.5 },
+        { "fromSec": 2.5, "src": "audio/sfx/impact/hit-fast-exciting.mp3", "volume": 0.6 },
+        { "fromSec": 6.5, "src": "audio/sfx/impact/hit-fast-exciting.mp3", "volume": 0.6 },
+        { "fromSec": 10.5, "src": "audio/sfx/impact/bass-hit-short.mp3", "volume": 0.7 }
+      ]
+    },
+    {
+      "id": "scene-06",
+      "role": "outro",
+      "component": "CtaUrgentOutro",
+      "durationSec": 10.0,
+      "voiceFile": "audio/voice/v06_cta.mp3",
+      "voiceStartSec": 0.6,
+      "voiceDurationSec": 7.44,
+      "voiceText": "Phần 2 tôi sẽ phân tích: Iran trả đũa thế nào? Kịch bản nào nguy hiểm nhất? Follow ngay để không bỏ lỡ!",
+      "props": {
+        "teaser": "⚡ PHẦN 2 SẮP LÊN SÓNG:",
+        "questions": [
+          "• IRAN SẼ TRẢ ĐŨA BẰNG CÁCH NÀO?",
+          "• EO BIỂN HORMUZ CÓ BỊ PHONG TỎA?",
+          "• GIÁ XĂNG DẦU TRONG NƯỚC SẼ RA SAO?"
+        ],
+        "ctaText": "👉 BẤM FOLLOW NGAY",
+        "ctaSub": "THEO DÕI TỪNG BIẾN ĐỘNG CHIẾN SỰ"
+      },
+      "sfx": [
+        { "fromSec": 0.0, "src": "audio/sfx/transition/whoosh-swirl.mp3", "volume": 0.8 },
+        { "fromSec": 0.5, "src": "audio/sfx/impact/impact-epic-trailer.mp3", "volume": 0.9 },
+        { "fromSec": 3.0, "src": "audio/sfx/text/typewriter-hit-hard.mp3", "volume": 0.6 },
+        { "fromSec": 4.5, "src": "audio/sfx/text/typewriter-hit-hard.mp3", "volume": 0.6 },
+        { "fromSec": 6.0, "src": "audio/sfx/impact/hit-fast-exciting.mp3", "volume": 0.8 }
+      ]
+    }
+  ]
+}

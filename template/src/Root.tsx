@@ -2,6 +2,7 @@ import { Composition } from 'remotion';
 import { AiflMain, AIFL_TOTAL } from './aifl/Main';
 import { RealEstateShortMain, SHORT_TOTAL } from './realestate/RealEstateShortMain';
 import { ScriptDrivenVideo } from './ScriptDrivenVideo';
+import { NewsMain, NEWS_TOTAL_FRAMES, NEWS_FPS } from './news/NewsMain';
 import scriptData from './sample-script.json';
 
 const SPEED = (scriptData.audio as any).playbackRate || 1.0;
@@ -37,6 +38,15 @@ export const Root: React.FC = () => {
         width={1080}
         height={1920}
       />
+      <Composition
+        id="MilitaryNewsShort"
+        component={NewsMain}
+        durationInFrames={NEWS_TOTAL_FRAMES}
+        fps={NEWS_FPS}
+        width={1080}
+        height={1920}
+      />
     </>
   );
 };
+
