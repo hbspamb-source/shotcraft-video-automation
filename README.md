@@ -32,6 +32,15 @@ beat-synced cuts, and film-grade SFX included.
 ## ✨ What's new
 
 > [!IMPORTANT]
+> ### 🚀 2026-09 · New: **Script-Driven Automation Engine (Remotion + Smart SFX)**
+> This version introduces automated short-form video generation (9:16 vertical / TikTok / Reels / Shorts):
+> - **Schema-Driven JSON Scripts**: Fully control scenes, texts, figures, and timings directly from `sample-script.json` without touching React JSX code.
+> - **Retained Full Motion Fidelity**: Retains 100% of Shotcraft's high-end motion design recipes (kinetic typography, 3D metric bars, dynamic split-screen comparison, glassmorphism boards, procedural cinematic backgrounds).
+> - **Multi-Layer Audio Orchestration**: Automated Vietnamese AI voiceover synchronization, dynamic BGM tension pauses, and semantic keyword-driven SFX selector (whoosh, epic hit, bass drop, warp, ding).
+>
+> 🎬 Render command: `npm run render:short` or preview via Remotion Studio!
+
+> [!IMPORTANT]
 > ### 🔥 2026-08 · New in the series: **video-talkcraft**, for narration videos
 > [**video-talkcraft**](https://github.com/Vincentwei1021/video-talkcraft) is the
 > narration-video installment of this series. Hand it a script plus a finished

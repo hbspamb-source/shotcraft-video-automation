@@ -1,0 +1,112 @@
+﻿{
+  "version": "1.0",
+  "metadata": {
+    "title": "VUA BĐS BỎ TÚI 52.000 TỶ KHI CẢ NGÀNH THỞ OXY",
+    "topic": "Real Estate Finance & Market Contrast",
+    "channel": "VIETNAM REALTY",
+    "source": "Báo cáo tài chính Q2/2026"
+  },
+  "audio": {
+    "voiceProvider": "edge-tts",
+    "voiceName": "vi-VN-NamMinhNeural",
+    "bgmTrack": "audio/bgm-hiphop.mp3",
+    "bgmVolume": 0.22
+  },
+  "aspectRatio": "9:16",
+  "scenes": [
+    {
+      "id": "scene-01",
+      "role": "hook",
+      "durationSec": 3,
+      "voiceFile": "audio/voice_01_hook.mp3",
+      "voiceText": "Cả mạng đuổi theo vua quạt, còn ông vua này bỏ túi năm mươi hai nghìn tỷ trong sáu tháng, giữa lúc cả ngành bất động sản thở ô xy.",
+      "props": {
+        "badgeText": "🚨 SỐC TOÀN NGÀNH BĐS",
+        "figure": "52.000 TỶ",
+        "figureSub": "CHỈ TRONG 6 THÁNG ĐẦU NĂM",
+        "contextWarning": "⚠️ GIỮA LÚC TOÀN NGÀNH \"THỞ OXY\""
+      }
+    },
+    {
+      "id": "scene-02",
+      "role": "body_stat",
+      "durationSec": 9,
+      "voiceFile": "audio/voice_02_paradox.mp3",
+      "voiceText": "Huy động chín phần trăm, cho vay mười bốn đến mười lăm phần trăm, doanh nghiệp chết lên chết xuống. Vậy mà Vinhomes ba quý liên tiếp trên ba mươi nghìn tỷ, hai quý gần nhất khoảng bốn mươi nghìn tỷ, nửa đầu hai nghìn không trăm hai mươi sáu kỷ lục năm mươi hai nghìn tỷ đồng.",
+      "props": {
+        "bannerTitle": "BỐI CẢNH NGHỊCH LÝ THỊ TRƯỜNG",
+        "bannerSub": "Doanh nghiệp ngắc ngoải, thanh khoản đóng băng",
+        "sectionTitle": "💥 THẾ NHƯNG VINHOMES (VHM):",
+        "steps": [
+          { "label": "3 QUÝ LIÊN TIẾP", "sub": "VƯỢT NGƯỠNG", "value": "> 30.000 TỶ" },
+          { "label": "2 QUÝ GẦN NHẤT", "sub": "DUY TRÌ ĐỈNH CAO", "value": "~ 40.000 TỶ" },
+          { "label": "NỬA ĐẦU 2026", "sub": "KỶ LỤC LỊCH SỬ", "value": "52.000 TỶ" }
+        ]
+      }
+    },
+    {
+      "id": "scene-03",
+      "role": "body_stat",
+      "durationSec": 13,
+      "voiceFile": "audio/voice_03_breakdown.mp3",
+      "voiceText": "Tiền ở đâu? Doanh thu hợp nhất sáu tháng một trăm mười sáu nghìn năm trăm sáu mươi lăm tỷ. Tính cả hoạt động tài chính lên tới một trăm ba mươi tư nghìn hai trăm linh năm tỷ. Riêng quý hai đạt ba mươi tư nghìn bảy trăm ba mươi hai tỷ.",
+      "props": {
+        "badgeTitle": "🔎 BÍ MẬT DÒNG TIỀN",
+        "coreRevenue": "116.565 TỶ",
+        "financeRevenue": "134.205 TỶ",
+        "quarterRevenue": "34.732 TỶ",
+        "quarterNote": "🔥 HƠN 1 TỶ USD CHỈ TRONG 1 QUÝ!",
+        "takeawayLabel": "CỬA HÁI RA TIỀN LỚN NHẤT:",
+        "takeawayValue": "HOẠT ĐỘNG TÀI CHÍNH"
+      }
+    },
+    {
+      "id": "scene-04",
+      "role": "body_comparison",
+      "durationSec": 15,
+      "voiceFile": "audio/voice_04_twoworlds.mp3",
+      "voiceText": "Nhìn sang bên kia: Novaland xoay xở từng lô trái phiếu, Đất Xanh, Phát Đạt co cụm phòng thủ. Cùng một thị trường, một bên lo trả lãi, một bên ung dung thu tiền tươi mỗi ngày.",
+      "props": {
+        "badgeTitle": "THỊ TRƯỜNG PHÂN HOÁ TỘT CÙNG",
+        "topEntity": {
+          "name": "VINHOMES (VHM)",
+          "sub": "40.000 → 148.000 (ĐỈNH 168.000)",
+          "growth": "+350% 🚀",
+          "positive": true
+        },
+        "bottomEntity": {
+          "name": "NOVALAND (NVL)",
+          "sub": "85.000 → 10.000 (CÓ LÚC 7.000)",
+          "growth": "-85% 🩸",
+          "positive": false
+        }
+      }
+    },
+    {
+      "id": "scene-05",
+      "role": "body_stat",
+      "durationSec": 12,
+      "voiceFile": "audio/voice_05_twist.mp3",
+      "voiceText": "Tại sao một mình một ngựa? Không phải phép màu: Quỹ đất giá vốn thấp từ nhiều năm trước, công thức bán buôn lô lớn cho đối tác ngoại, và hệ sinh thái tài chính độc quyền.",
+      "props": {
+        "warningTag": "NHƯNG KHOAN SƯỚNG VỘI!",
+        "boxSubtitle": "CON SỐ +350% VỪA LÀ THÀNH TÍCH...",
+        "boxHighlight": "NHƯNG CŨNG LÀ \"TRẦN KỲ VỌNG\"!",
+        "boxContent": "Dòng tiền thông minh bắt đầu tìm lối thoát. Đừng quá kỳ vọng để rồi đu đỉnh ở chu kỳ này!"
+      }
+    },
+    {
+      "id": "scene-06",
+      "role": "outro",
+      "durationSec": 8,
+      "voiceFile": "audio/voice_06_cta.mp3",
+      "voiceText": "Thị trường đóng băng hay chỉ đóng băng với người không đủ lực? Bạn nghĩ sao? Follow kênh để bóc tách từng con số.",
+      "props": {
+        "badgeTitle": "🤫 TIẾT LỘ NẰM Ở PHẦN 2",
+        "buttonText": "👉 BẤM FOLLOW NGAY!",
+        "bannerNote": "⏰ ĐÚNG 8H TỐI MAI TÔI BÓC TRẦN!",
+        "loopText": "🔄 (Loop: Nối thẳng câu mở đầu \"Trong khi cả mạng...\")"
+      }
+    }
+  ]
+}
