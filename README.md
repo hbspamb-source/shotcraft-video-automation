@@ -56,7 +56,7 @@ Chúng tôi chân thành cảm ơn sự đóng góp quý báu của các tác gi
 
 
 > [!IMPORTANT]
-> ### 🚀 2026-09 · New: **Script-Driven Automation Engine (Remotion + Smart SFX)**
+> ### 🚀 2026-09-16 · New: **Script-Driven Automation Engine (Remotion + Smart SFX)**
 > Phiên bản kết hợp này mang đến khả năng tự động hóa video ngắn (9:16 vertical / TikTok / Reels / Shorts):
 > - **Schema-Driven JSON Scripts**: Toàn bộ nội dung, số liệu, thời lượng và voiceover được điều khiển hoàn toàn qua file `sample-script.json` mà không cần chỉnh sửa code React JSX.
 > - **Retained 100% Shotcraft Motion Fidelity**: Bảo toàn trọn vẹn toàn bộ các animation phức tạp của Shotcraft (kinetic typography, biểu đồ cột 3D nhảy số liệu, so sánh đối kháng chia đôi màn hình Split-screen, bảng số liệu 3D kính mờ glassmorphism và nền Cinematic điện ảnh).
