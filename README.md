@@ -29,16 +29,29 @@ beat-synced cuts, and film-grade SFX included.
 
 🖼️ [**Browse all 214 motion previews in the live Gallery »**](https://vincentwei1021.github.io/video-shotcraft/)
 
+## 🤝 Credits & Upstream Acknowledgements (Tôn Trọng Tác Quyền)
+
+Dự án này là một phiên bản mở rộng kết hợp (Hybrid Evolution) được kế thừa và lấy cảm hứng chính thức từ hai dự án mã nguồn mở xuất sắc:
+
+1. **[video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft)** của tác giả **[@Vincentwei1021](https://github.com/Vincentwei1021)**:
+   - Cung cấp toàn bộ nền tảng cốt lõi về hệ thống Motion Recipe Cards (157 shot recipe cards, 214 motion styles), React 19 + Remotion 4.x runtime, 2.5D camera moves, physics spring animations, glassmorphism boards và Motion Workbench.
+2. **[AI-auto-generate-video](https://github.com/huytranvan2010/AI-auto-generate-video)** của tác giả **[@huytranvan2010](https://github.com/huytranvan2010)**:
+   - Cung cấp cảm hứng và kiến trúc pipeline tự động hóa: chuẩn hóa kịch bản JSON (`script.json` schema), quy trình chia đoạn lồng tiếng Vietnamese Voiceover TTS, và thuật toán lựa chọn hiệu ứng âm thanh thông minh (Smart Semantic SFX Selector) theo ngữ nghĩa kịch bản.
+
+Chúng tôi chân thành cảm ơn sự đóng góp quý báu của các tác giả cho cộng đồng mã nguồn mở!
+
+---
+
 ## ✨ What's new
 
 > [!IMPORTANT]
 > ### 🚀 2026-09 · New: **Script-Driven Automation Engine (Remotion + Smart SFX)**
-> This version introduces automated short-form video generation (9:16 vertical / TikTok / Reels / Shorts):
-> - **Schema-Driven JSON Scripts**: Fully control scenes, texts, figures, and timings directly from `sample-script.json` without touching React JSX code.
-> - **Retained Full Motion Fidelity**: Retains 100% of Shotcraft's high-end motion design recipes (kinetic typography, 3D metric bars, dynamic split-screen comparison, glassmorphism boards, procedural cinematic backgrounds).
-> - **Multi-Layer Audio Orchestration**: Automated Vietnamese AI voiceover synchronization, dynamic BGM tension pauses, and semantic keyword-driven SFX selector (whoosh, epic hit, bass drop, warp, ding).
+> Phiên bản kết hợp này mang đến khả năng tự động hóa video ngắn (9:16 vertical / TikTok / Reels / Shorts):
+> - **Schema-Driven JSON Scripts**: Toàn bộ nội dung, số liệu, thời lượng và voiceover được điều khiển hoàn toàn qua file `sample-script.json` mà không cần chỉnh sửa code React JSX.
+> - **Retained 100% Shotcraft Motion Fidelity**: Bảo toàn trọn vẹn toàn bộ các animation phức tạp của Shotcraft (kinetic typography, biểu đồ cột 3D nhảy số liệu, so sánh đối kháng chia đôi màn hình Split-screen, bảng số liệu 3D kính mờ glassmorphism và nền Cinematic điện ảnh).
+> - **Multi-Layer Audio Orchestration**: Tự động đồng bộ giọng đọc tiếng Việt theo từng cảnh, ngắt nhịp nhạc nền BGM kịch tính và bộ chọn SFX thông minh theo từ khóa (whoosh, bass drop, epic hit, warp, ding).
 >
-> 🎬 Render command: `npm run render:short` or preview via Remotion Studio!
+> 🎬 Lệnh render nhanh: `npm run render:short` hoặc xem thời gian thực qua Remotion Studio (`npm run dev`)!
 
 > [!IMPORTANT]
 > ### 🔥 2026-08 · New in the series: **video-talkcraft**, for narration videos
