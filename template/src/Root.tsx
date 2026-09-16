@@ -1,10 +1,14 @@
-﻿import { Composition } from 'remotion';
+import { Composition } from 'remotion';
 import { AiflMain, AIFL_TOTAL } from './aifl/Main';
 import { RealEstateShortMain, SHORT_TOTAL } from './realestate/RealEstateShortMain';
 import { ScriptDrivenVideo } from './ScriptDrivenVideo';
 import scriptData from './sample-script.json';
 
-const SCRIPT_TOTAL_FRAMES = scriptData.scenes.reduce((acc, s) => acc + (s.durationSec || 5) * 30, 0);
+const SPEED = (scriptData.audio as any).playbackRate || 1.0;
+const SCRIPT_TOTAL_FRAMES = scriptData.scenes.reduce(
+  (acc, s) => acc + Math.round(((s.durationSec || 5) / SPEED) * 30),
+  0
+);
 
 export const Root: React.FC = () => {
   return (

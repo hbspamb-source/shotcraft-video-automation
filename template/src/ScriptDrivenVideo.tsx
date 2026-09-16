@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { AbsoluteFill, Audio, Sequence, staticFile } from 'remotion';
 import { SceneHook } from './realestate/SceneHook';
 import { SceneParadox } from './realestate/SceneParadox';
@@ -12,22 +12,31 @@ import scriptData from './sample-script.json';
 const FPS = 30;
 
 export const ScriptDrivenVideo: React.FC = () => {
+  const playbackRate = scriptData.audio.playbackRate || 1.0;
   let accumulatedFrame = 0;
+
+  // Calculate total frames dynamically based on speed
+  const totalFrames = scriptData.scenes.reduce((acc, s) => {
+    return acc + Math.round(((s.durationSec || 5) / playbackRate) * FPS);
+  }, 0);
+
+  // Split BGM tension pause at Scene 4 -> Scene 5 transition
+  const pausePointFrame = Math.round(totalFrames * (40 / 60));
 
   return (
     <AbsoluteFill style={{ backgroundColor: '#000000', color: '#ffffff' }}>
       {/* Background Music: Nhạc nền Hip-hop thông minh */}
-      <Sequence from={0} durationInFrames={1200}>
+      <Sequence from={0} durationInFrames={pausePointFrame}>
         <Audio src={staticFile('audio/bgm-hiphop.mp3')} volume={scriptData.audio.bgmVolume || 0.22} />
       </Sequence>
-      {/* Khoảng lặng ngắt nhạc kịch tính ở SceneTwist (f1200 -> f1215), sau đó nhạc vào lại nhẹ nhàng */}
-      <Sequence from={1215} durationInFrames={585}>
-        <Audio src={staticFile('audio/bgm-hiphop.mp3')} startFrom={1215} volume={0.18} />
+      {/* Khoảng lặng ngắt nhạc kịch tính 0.5s (15 frames) trước cảnh Twist */}
+      <Sequence from={pausePointFrame + 15} durationInFrames={totalFrames - (pausePointFrame + 15)}>
+        <Audio src={staticFile('audio/bgm-hiphop.mp3')} startFrom={pausePointFrame + 15} volume={0.18} />
       </Sequence>
 
-      {/* Render 6 Shotcraft Motion Scenes Dynamically from Script JSON */}
+      {/* Render 6 Shotcraft Motion Scenes Dynamically with 1.5x Speed */}
       {scriptData.scenes.map((scene, idx) => {
-        const sceneDurationFrames = (scene.durationSec || 5) * FPS;
+        const sceneDurationFrames = Math.round(((scene.durationSec || 5) / playbackRate) * FPS);
         const startFrom = accumulatedFrame;
         accumulatedFrame += sceneDurationFrames;
 
@@ -35,9 +44,9 @@ export const ScriptDrivenVideo: React.FC = () => {
 
         return (
           <Sequence key={scene.id} from={startFrom} durationInFrames={sceneDurationFrames}>
-            {/* Vietnamese Voiceover Narration per Scene */}
+            {/* Vietnamese Voiceover Narration with 1.5x speed */}
             {scene.voiceFile && (
-              <Audio src={staticFile(scene.voiceFile)} volume={1.0} />
+              <Audio src={staticFile(scene.voiceFile)} playbackRate={playbackRate} volume={1.0} />
             )}
 
             {/* Smart Auto SFX synchronization */}

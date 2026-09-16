@@ -1,4 +1,4 @@
-﻿export type SceneRole = "hook" | "body_stat" | "body_comparison" | "body_insight" | "outro";
+export type SceneRole = "hook" | "body_stat" | "body_comparison" | "body_insight" | "outro";
 
 export interface SfxConfig {
   name: string;
@@ -30,6 +30,7 @@ export interface VideoScript {
   audio: {
     voiceProvider: "edge-tts" | "omnivoice";
     voiceName?: string;
+    playbackRate?: number;
     bgmTrack?: string;
     bgmVolume?: number;
   };

@@ -1,4 +1,4 @@
-﻿{
+{
   "version": "1.0",
   "metadata": {
     "title": "VUA BĐS BỎ TÚI 52.000 TỶ KHI CẢ NGÀNH THỞ OXY",
@@ -9,6 +9,7 @@
   "audio": {
     "voiceProvider": "edge-tts",
     "voiceName": "vi-VN-NamMinhNeural",
+    "playbackRate": 1.5,
     "bgmTrack": "audio/bgm-hiphop.mp3",
     "bgmVolume": 0.22
   },
