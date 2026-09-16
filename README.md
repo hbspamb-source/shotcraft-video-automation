@@ -45,6 +45,16 @@ Chúng tôi chân thành cảm ơn sự đóng góp quý báu của các tác gi
 
 ## ✨ What's new
 
+> [!TIP]
+> ### 🎬 2026-09 · New: **Short Video Automation Standard & 3-Layer Visual Architecture**
+> Cập nhật quy chuẩn sản xuất video ngắn định dạng dọc (9:16) chuẩn điện ảnh:
+> - **Quy Chuẩn Skill Vận Hành (`.agents/skills/short-video-automation`)**: Bổ sung bộ quy tắc SOP tiêu chuẩn hóa sản xuất video tự động từ tin tức hoặc kịch bản.
+> - **Kiến Trúc 3 Tầng Thị Giác (3-Layer Architecture)**: Loại bỏ hoàn toàn chữ chạy trên nền đen. Tích hợp Tầng 1 (B-Roll Footage / Ken Burns 2.5D), Tầng 2 (Môi trường: Khói, Scanlines radar, Film Grain, Vignette, Screen Shake toán học) và Tầng 3 (Kinetic Typography, Badge, Odometer counter).
+> - **Theme Matrix & Camera Shake Toán Học**: Tự động biến hóa độ rung giật, nhịp điệu cắt cảnh và bộ SFX theo từng thể loại nội dung (*Chiến sự/Khẩn cấp, Tài chính, Công nghệ, Lịch sử*).
+> - **Bộ Lọc Nguồn B-Roll Thông Minh**: Ưu tiên cắt B-Roll gốc từ link YouTube (`yt-dlp` + `ffmpeg`) hoặc Stock API miễn phí (`Pexels/Pixabay`) giúp tiết kiệm 100% token AI; chỉ dùng AI Gen Image khi cần thiết.
+> - **Chuẩn Hóa Âm Thanh & Preview-First**: Đồng nhất 100% một giọng đọc (`vi-VN-NamMinhNeural`), cân bằng tỷ lệ Voice/BGM/SFX và thiết lập cơ chế xem thử trực tiếp trên web (`http://localhost:3000`) trước khi xuất file MP4.
+
+
 > [!IMPORTANT]
 > ### 🚀 2026-09 · New: **Script-Driven Automation Engine (Remotion + Smart SFX)**
 > Phiên bản kết hợp này mang đến khả năng tự động hóa video ngắn (9:16 vertical / TikTok / Reels / Shorts):
