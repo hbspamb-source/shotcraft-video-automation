@@ -46,7 +46,7 @@ Chúng tôi chân thành cảm ơn sự đóng góp quý báu của các tác gi
 ## ✨ What's new
 
 > [!TIP]
-> ### 🎬 2026-09 · New: **Short Video Automation Standard & 3-Layer Visual Architecture**
+> ### 🎬 2026-09-17 · New: **Short Video Automation Standard & 3-Layer Visual Architecture**
 > Cập nhật quy chuẩn sản xuất video ngắn định dạng dọc (9:16) chuẩn điện ảnh:
 > - **Quy Chuẩn Skill Vận Hành (`.agents/skills/short-video-automation`)**: Bổ sung bộ quy tắc SOP tiêu chuẩn hóa sản xuất video tự động từ tin tức hoặc kịch bản.
 > - **Kiến Trúc 3 Tầng Thị Giác (3-Layer Architecture)**: Loại bỏ hoàn toàn chữ chạy trên nền đen. Tích hợp Tầng 1 (B-Roll Footage / Ken Burns 2.5D), Tầng 2 (Môi trường: Khói, Scanlines radar, Film Grain, Vignette, Screen Shake toán học) và Tầng 3 (Kinetic Typography, Badge, Odometer counter).
